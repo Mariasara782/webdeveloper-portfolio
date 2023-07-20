@@ -6,14 +6,16 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 0 200px;
-    
+
 }
 
 .nav-title {
+
     color: var(--dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
-    
+
+
 }
 
 .text-primary {
@@ -27,33 +29,80 @@ nav {
     font-size: 20px;
     color: white;
     font-weight: 700;
-    padding: 15px 35px;
+    padding: 18px 30px;
+    margin-top: 30px;
+    font-weight: 700;
+    
+}
+
+.btn-primaryy {
+    background: #FD6E0A;
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+    font-size:20px;
+    color: #FFF;
+    font-weight: 700;
+    border: 0;
 }
 
 nav>ul {
     display: flex;
-    
+
     align-items: center;
 }
 
-nav li {display: flex;
+nav li {
+
     list-style: none;
     margin-right: 50px;
-    justify-content: space-between;
-    
+
+
 }
 
 nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /*header related styles*/
-.header{background-color: #FFF8F3;}
-.banner{
-    padding:30px 30px 30px 150px;
-    display:flex;
-    align-items: center;
-    
-    
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner .profile-pic{width: 500px;}
+
+.banner {
+    padding: 30px 30px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.banner .profile-pic {
+    width: 500px;
+
+
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    max-width: 500px;
+}
+/*main section styles*/
+/*about section styles*/
