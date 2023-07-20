@@ -106,15 +106,20 @@ nav a {
 }
 
 /*main section styles*/
-main{max-width: 1140px;
-margin: 0 auto;}
+main {
+    max-width: 1140px;
+    max-height: 550px;
+
+    margin: 130px auto
+}
+
 /*about section styles*/
 .about {
-    padding:130px;
+    padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    
-    margin: 130px 0;
+
+
 }
 
 .section-title {
@@ -122,18 +127,19 @@ margin: 0 auto;}
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-    
+
 }
-.section-description{color:  #757575;
+
+.section-description {
+    color: #757575;
     text-align: center;
     font-size: 18px;
+    max-width: 827px;
+    max-height: 120px;
 }
-    
-    
 
-    
-    
-    
-    
-    
-    
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{text-align: center;}
