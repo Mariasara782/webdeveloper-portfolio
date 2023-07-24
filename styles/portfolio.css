@@ -229,17 +229,18 @@ main section {
 footer {
     display: flex;
     background: #FFF8F3;
-    padding: 130px 200px;
+    padding: 130px 230px;
     gap: 117px;
+    
 }
 
-.footer-column-2{margin-right:300px;}
+
 
 .Contact input,
 textarea {
     display: block;
 
-
+     
 
 
     background: #FFF;
@@ -247,7 +248,9 @@ textarea {
 }
 
 input[type="text"] {
-   
+    width: 461px;
+    
+    
     
     background: #FFF;
     margin-bottom: 24px;
@@ -275,7 +278,7 @@ input[type="email"] {
 textarea {
     width: 461px;
     height: 180px;
-    flex-shrink: 0;
+    
     background: #FFF;
     margin-bottom: 24px;
     color: #757575;
