@@ -107,13 +107,17 @@ nav a {
 
 /*main section styles*/
 main {
-    
+
     width: 1140px;
-   
-     margin: 0px auto;
-   
+
+    margin: 0px auto;
+
 }
-main section{margin-top: 130px;}
+
+main section {
+    margin-top: 130px;
+}
+
 /*about section styles*/
 .about {
     padding: 130px;
@@ -124,7 +128,7 @@ main section{margin-top: 130px;}
 }
 
 .section-title {
-    color:  #181818;
+    color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
@@ -135,7 +139,7 @@ main section{margin-top: 130px;}
     color: #757575;
     text-align: center;
     font-size: 18px;
-    
+
 }
 
 .about-info-container {
@@ -149,7 +153,7 @@ main section{margin-top: 130px;}
 
 #what-i-do-description {
     padding: 30px 150px;
-    
+
     text-align: center;
 }
 
@@ -160,7 +164,7 @@ main section{margin-top: 130px;}
 
 .skill {
     padding: 30px;
-      gap: 24px;
+    gap: 24px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -187,7 +191,7 @@ main section{margin-top: 130px;}
 .resume-container {
     display: flex;
     gap: 70px;
-    
+
 }
 
 .resume-part-title {
@@ -200,8 +204,8 @@ main section{margin-top: 130px;}
 
 .resume-item-institute {
     color: #757575;
-   margin-bottom: 20px;
-   margin-top: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
     font-size: 20px;
 
     font-weight: 600;
@@ -214,19 +218,98 @@ main section{margin-top: 130px;}
 .resume-container hr {
     margin: 30px 0px;
 }
-.download-cv{text-align: center;
-margin-top: 20px;
-margin-bottom: 113px;}
-/*footer styles*/
-footer{display: flex;
-    background: #FFF8F3;
-    padding:130px 200px;
-    
+
+.download-cv {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 113px;
 }
 
-    
+/*footer styles*/
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    gap: 100px;
+}
 
-    
+.footer-column {}
+
+.Contact input,
+textarea {
+    display: block;
 
 
-    
+
+
+    background: #FFF;
+
+}
+
+input[type="text"] {
+    width: 461px;
+    height: 32px;
+    margin-right: 230px;
+    background: #FFF;
+    margin-bottom: 24px;
+    color: #757575;
+    padding: 18px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+
+}
+
+input[type="email"] {
+    width: 461px;
+    height: 32px;
+    margin-right: 230px;
+    background: #FFF;
+    margin-bottom: 24px;
+    color: #757575;
+    padding: 18px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+}
+
+textarea {
+    width: 461px;
+    height: 180px;
+    flex-shrink: 0;
+    background: #FFF;
+    margin-bottom: 24px;
+    color: #757575;
+    padding: 18px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFF;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.footer-section-title {
+    color: #181818;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-section-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.social-links a{margin-right: 24px}
