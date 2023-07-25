@@ -230,8 +230,10 @@ footer {
     display: flex;
     background: #FFF8F3;
     padding: 130px 230px;
-    gap: 117px;
-    
+    gap: 300px;
+
+
+
 }
 
 
@@ -239,23 +241,20 @@ footer {
 .Contact input,
 textarea {
     display: block;
-
-     
-
-
     background: #FFF;
-
+  width: 100%;
+   
 }
 
 input[type="text"] {
+   
     width: 461px;
-    
-    
-    
+
+
     background: #FFF;
     margin-bottom: 24px;
     color: #757575;
-    padding: 18px;
+    padding: 18px 35px;
     border-radius: 5px;
     border: 0;
     font-size: 16px;
@@ -264,12 +263,12 @@ input[type="text"] {
 
 input[type="email"] {
     width: 461px;
-    height: 32px;
-    
+   
+
     background: #FFF;
     margin-bottom: 24px;
     color: #757575;
-    padding: 18px;
+    padding: 18px 35px;
     border-radius: 5px;
     border: 0;
     font-size: 16px;
@@ -278,11 +277,11 @@ input[type="email"] {
 textarea {
     width: 461px;
     height: 180px;
-    
+
     background: #FFF;
     margin-bottom: 24px;
     color: #757575;
-    padding: 18px;
+    padding: 18px 35px;
     border-radius: 5px;
     border: 0;
     font-size: 16px;
@@ -315,4 +314,7 @@ input[type="submit"] {
     line-height: 28px;
     width: 562px;
 }
-.social-links a{margin-right: 24px}
+
+.social-links a {
+    margin-right: 24px
+}
